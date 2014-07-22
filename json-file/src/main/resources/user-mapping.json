@@ -1,0 +1,17 @@
+{
+    "user": {
+        "properties": {
+            "name": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "age": {
+                "type": "long"
+            },
+            "address": {
+                "type": "string",
+                "index": "not_analyzed"
+            }
+        }
+    }
+}
