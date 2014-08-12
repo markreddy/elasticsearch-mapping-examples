@@ -29,7 +29,6 @@ public class JSONFileMapping extends ESManager {
             createIndex(INDEX);
         }
 
-        System.out.println(buildMapping());
         putMapping(INDEX, TYPE, buildMapping());
     }
 

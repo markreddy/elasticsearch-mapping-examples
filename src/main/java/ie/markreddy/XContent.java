@@ -23,7 +23,6 @@ public class XContent extends ESManager {
         }
 
         try {
-            System.out.println(buildMapping().toString());
             putMapping(INDEX, TYPE, buildMapping());
         } catch (IOException e) {
             e.printStackTrace();
